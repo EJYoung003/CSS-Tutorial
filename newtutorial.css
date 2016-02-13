@@ -1,0 +1,41 @@
+p {
+    font-size: 12px;
+    font-family: Verdana, "New Times Roman", sans-serif;
+    font-weight: lighter
+}
+
+p.first:first-letter,
+.dropcap {
+    float: left;
+    font-size: 4em;
+    padding: 3px;
+    font-family: Verdana, "New Times Roman", sans-serif;
+    margin-right: 10px;
+    line-height: 0.35em;
+}
+
+p.first:first-line {
+    font-style: italic;
+    font-weight: bold;
+    color: #336633;
+}
+
+p.altdrop:first-letter,
+.dropcap-alt {
+    float: left;
+    background: #336699;
+    color: #00ff00;
+    font-size: 3.5em;
+    padding: 10px 14px;
+    margin-right: 8px;
+}
+
+p.altdrop:first-line {
+    font-style: italic;
+    font-weight: bold;
+}
+
+li:before {
+    content: "POW! ";
+    color: #FF3333;
+}
